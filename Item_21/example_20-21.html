@@ -1,0 +1,65 @@
+<!DOCTYPE html >       
+<html>  
+<head>                       
+    <meta charset=utf-8">
+    <title>Макар Гуржій ІПЗ20-9-Д item 21</title> 
+	<link href="example_20-21.css" rel="stylesheet">
+</head>
+<body>  
+	<h3>Атрибуты, классы, текст</h3>
+	<button id="atr" class="green">Установить атрибут</button>
+	<p>Место для атрибута</p>
+	
+	<h3>Методы prop() и val()</h3>
+	<span>1-й</span><input type="checkbox">
+	<span>2-й</span><input type="checkbox">
+	<span>3-й</span><input type="checkbox">
+	<span>4-й</span><input type="checkbox">
+	<span>5-й</span><input type="checkbox"><br>
+	<label>№ checkbox<input type="number"></label>
+	<button id="select">Выбрать checkbox</button>
+
+	<h3>Задания</h3>
+	<p>1. Первые 2-а заголовка h3 вывести красным цветом, последний заголовок h3 вывести зеленым цветом с текстом 
+		"Задания для выполнения" при "клике" на соответствующем заголовке.
+	</p>
+	<p>2. Изменить пример с checkbox-ами: checkbox-ы расположить в столбец (изменить разметку), начиная с указанного 
+		сделать отмеченными и вместо номера вывести зеленым "отмечен", а до указанного не отмеченными и вместо номера 
+		вывести серым и более мелким "не выбран". При вводе не существующего номера (<1 или >5), вернуть в исходное состояние.
+	</p>
+	<p>3. Создать html-форму из полей различного типа (text, number, checkbox). По "клику" на кнопке проверить заполненность полей.
+		Если поля не заполнены, выдать сообщение (из checkbox-ов отмеченным должен быть хотя бы один.)
+	</p>
+
+	<form id="myForm">
+		<input type="text" name="text_field" placeholder="Текстове поле"><br>
+		<input type="number" name="number_field" placeholder="Числове поле"><br>
+		<input type="checkbox" name="checkbox_field">Поле для вибору<br>
+		<button type="button" id="checkButton">Перевірити</button>
+	</form>
+
+	<p>4. Дан select и radio-кнопки (количество radio-кнопок и option равны). При выборе пункта в селекте (событие "change") 
+		отмечать соответствующую радио-кнопку.
+	</p>
+
+	<select id="mySelect">
+		<option value="1">Option 1</option>
+		<option value="2">Option 2</option>
+		<option value="3">Option 3</option>
+		<option value="4">Option 4</option>
+		<option value="5">Option 5</option>
+	</select>
+	
+	<br>
+	
+	<input type="radio" name="radio_button" value="1"> 1<br>
+	<input type="radio" name="radio_button" value="2"> 2<br>
+	<input type="radio" name="radio_button" value="3"> 3<br>
+	<input type="radio" name="radio_button" value="4"> 4<br>
+	<input type="radio" name="radio_button" value="5"> 5<br>
+
+
+	<script src="../js/jquery.min.js"></script>
+	<script src="example_20-21.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+body {
+	padding-left: 50px;
+	font-family: Arial;
+	font-size: 16px;
+}
+.button {
+	margin-top: 20px;
+	padding: 0 0 10px 0;
+	width: 550px;
+	border: 2px ridge green;
+}
+.button > p {
+	margin-bottom: 10px;
+	margin-top: 0;
+	line-height: 25px;
+	background-color: #8B7A69;
+	color: yellow;
+	text-align: center;
+}
+span {
+	display: inline-block;
+	padding: 5px 10px;
+	margin-left: 30px;
+	background-color: silver;
+	color: green;
+	cursor: pointer;
+	border: 2px ridge gray;
+	border-radius: 5px;
+}
+ol {
+	padding: 10px 50px;
+	border: 3px ridge gray;
+	width: 400px;
+}
+#anim {
+	padding: 5px 10px;
+	margin: 10px 30px;
+	background-color: silver;
+	color: green;
+	cursor: pointer;
+	border: 2px ridge gray;
+	border-radius: 5px;
+	font-size: 16px;
+	
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+  
+.modal-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.accordion {
+	margin: 20px;
+}
+
+.accordion-item {
+	border: 1px solid #875b5b;
+	margin-bottom: 10px;
+}
+
+.accordion-header {
+	background-color: #452222;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.accordion-content {
+	padding: 10px;
+	display: none;
+}
+  
+.sidebar {
+	height: 100%;
+	width: 10 px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+  
+.sidebar a {
+	padding: 10px 15px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+  
+.sidebar a:hover {
+	color: #f1f1f1;
+}
+  
+#main {
+	transition: margin-right .5s;
+	padding: 16px;
+}
+
+#img {
+    height: 150px;
+    opacity: 1;
+}

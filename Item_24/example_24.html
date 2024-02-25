@@ -1,0 +1,47 @@
+<!DOCTYPE html >       
+<html>  
+<head>                       
+    <meta charset=utf-8">
+    <title>Макар Гуржій ІПЗ20-9-Д item 24</title> 
+	<link href="example_24.css" rel="stylesheet">
+</head>
+<body>  
+	<h2>Обробка подій</h2>
+	<p class="action">Наведіть вказівник миші на посилання нижче...</p>
+	<div class="link"><a href="http://google.com">Перейти на Google</a></div>
+	<div class="link"><a href="http://jquery.com/">Перейти на сайт jQuery</a></div>
+	<p class="action">"Подвійний клік" (квадрат числа) на абзаці...</p>
+	<p class="num">4</p>
+	<p class="num">6</p>
+	<p class="num">7</p>
+	
+	<div id="content">
+		<p>після запису чогось нажміть Enter</p>
+		<input type="text" id="textInput">
+		<div id="output"></div>
+	</div>
+
+	<h3>Завдання</h3>
+	<p>1. Доповнити 1-й приклад: значення href вивести червоним кольором</p>
+	<p>2. Доповнити 2 приклад: якщо результат > 10000, відв'язати подію від об'єкта</p>
+	<p>3. На сторінці розташувати div та select. Вибраний пункт у select відобразити у div</p>
+	<p>4. На сторінці розташувати div та input (для введення тексту). При отриманні input-ом фокусу
+		вивести підказку "Введіть інформацію". Натиснувши клавішу "Enter" в input введений текст помістити в div,
+		почистити та залишити поле input. По натисканню "Esc" - почистити і залишити input.</p>
+
+
+
+	<select id="mySelect">
+		<option value="option1">Опція 1</option>
+		<option value="option2">Опція 2</option>
+		<option value="option3">Опція 3</option>
+	</select>
+		
+	<div id="selectedOption"></div>
+	
+
+
+	<script src="../js/jquery.min.js"></script>
+	<script src="example_24.js"></script>
+</body>
+</html>

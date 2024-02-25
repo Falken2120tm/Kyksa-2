@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 30px;
+}
+button {
+	border: 1px solid gray;
+	padding: 10px 30px;
+	background-color: silver;
+	cursor: pointer;
+	display: block;
+	border-radius: 3px;
+	margin: 7px 20px;
+	font-size: 16px;
+}
+button:focus {
+	outline: none;
+}
+.green {
+	color: green;
+}
+.red {
+	color: red;
+}
+input {
+	margin-bottom: 20px;
+}
+input[type="number"] {
+	width: 100px;
+	height: 20px;
+	border-radius: 3px;
+	margin-left: 10px;
+	padding-left: 5px;
+}
+p:first-of-type {
+	padding: 5px 20px;
+	border: 1px solid navy;
+	color: white;
+	background-color: gray;
+	display: inline-flex;
+	margin-left: 20px;
+	font-size: 20px;
+}
+p:first-of-type > span {
+	color: lime;
+	margin-left: 5px;
+}
+p:not(:first-of-type) {
+	width: 600px;
+}
+
+.checked { 
+	color: green; 
+}
+
+.unchecked { 
+	color: grey; font-size: smaller; 
+}

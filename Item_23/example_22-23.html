@@ -1,0 +1,40 @@
+<!DOCTYPE html >       
+<html>  
+<head>                       
+    <meta charset=utf-8">
+    <title>Макар Гуржій ІПЗ20-9-Д item 23</title> 
+	<link href="example_22-23.css" rel="stylesheet">
+</head>
+<body>  
+	<h2>Робота зі структурою сторінки</h2>
+	<p id="start">Натисніть ТУТ для початку демонстрації...</p>
+
+	<table id="myTable">
+	    <thead>
+	        <tr>
+	            <th>№</th>
+	            <th>ПІБ</th>
+	            <th>Вставити ДО</th>
+	            <th>Вставити ПІСЛЯ</th>
+	            <th>Видалити</th>
+	        </tr>
+	    </thead>
+	    <tbody>
+	    </tbody>
+	</table>
+
+	<input type="text" id="personalData" placeholder="Введіть ПІБ">
+	<button id="addPersonal">Додати особистий запис</button>
+
+	<h3>Завдання</h3>
+	<p>1. За "кліком" на доданому елементі - видалити його.</p>
+	<p>2. Доповнити приклад методами insertBefore та insertAfter.</p>
+	<p>3. Після натискання на заголовок привести список до початкового вигляду.</p>
+	<p>4. На сторінці розмістити таблицю з 5-ти стовпців (№, ПІБ, Вставити ДО, Вставити ПІСЛЯ, Видалити)<br>
+		та одним особистим записом. Нижче таблиці - поле для введення ПІБ. 
+		Організувати виконання операцій відповідно назві стовпців.</p>
+	
+	<script src="../js/jquery.min.js"></script>
+	<script src="example_22-23.js"></script>
+</body>
+</html>
